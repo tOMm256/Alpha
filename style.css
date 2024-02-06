@@ -15,7 +15,7 @@ body {
 
 #game {
     display: flex;
-    background-color: green;
+    background-color: rgb(32,32,32);
 }
 
 
