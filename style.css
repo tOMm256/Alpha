@@ -52,12 +52,15 @@ body {
 }
 
 .correct-answer{
-    display: grid;
-    place-items: center;
-    font-size: 100px !important;
     background-color: rgb(186,186,24);
 }
 
 .wrong-answer{
     background-color: rgb(221, 64,56);
+}
+
+.correct-answer, .wrong-answer{
+     display: grid;
+    place-items: center;
+    font-size: 100px !important;
 }
