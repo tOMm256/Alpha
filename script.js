@@ -166,7 +166,7 @@ jeopardyCategories.forEach(category => addCategory(category))
 
 function flipCard() {
     this.innerHTML = ""
-    this.style.fontSize = "100px"
+    this.style.fontSize = "15px"
     this.style.lineHeight = "30px"
     const textDisplay = document.createElement('div')
     textDisplay.classList.add('card-text')
