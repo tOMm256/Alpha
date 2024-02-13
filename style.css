@@ -52,6 +52,9 @@ body {
 }
 
 .correct-answer{
+    display: grid;
+    place-items: center;
+    font-size: 100px;
     background-color: rgb(186,186,24);
 }
 
